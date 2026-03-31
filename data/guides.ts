@@ -429,5 +429,19 @@ export const guides: GuideStub[] = [
     "excerpt": "Guide to regional rental inspections in Victoria with practical Victorian rental advice, suburb context, and budget tips for tenants comparing listings in Melbourne and regional Victoria.",
     "category": "Regional",
     "datePublished": "2026-03-03"
+  },
+  {
+    "title": "Cheapest Suburbs to Rent in Sydney 2026 — Full Affordability Guide",
+    "slug": "cheapest-suburbs-to-rent-sydney-2026",
+    "excerpt": "Discover the 15 cheapest suburbs to rent in Sydney in 2026. Median rents, transport links, suburb profiles, and practical tips for finding affordable rentals across Greater Sydney.",
+    "category": "Suburb Research",
+    "datePublished": "2026-03-31"
+  },
+  {
+    "title": "How to Find a Rental in Brisbane 2026: Complete Step-by-Step Guide",
+    "slug": "how-to-find-rental-brisbane-2026",
+    "excerpt": "Learn how to find a rental in Brisbane in 2026 with this complete guide covering the best suburbs by budget, application tips, pet-friendly areas, flood zones, and common mistakes to avoid.",
+    "category": "Getting Started",
+    "datePublished": "2026-03-31"
   }
 ] as GuideStub[];
