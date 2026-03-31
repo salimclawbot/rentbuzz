@@ -2,6 +2,7 @@ import ReactMarkdown from "react-markdown";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
+import { ArticleImage } from "./article-image";
 
 export function GuideMarkdown({ content }: { content: string }) {
   return (
@@ -18,6 +19,7 @@ export function GuideMarkdown({ content }: { content: string }) {
           p: ({ node, ...props }) => <p className="text-base text-slate-700" {...props} />,
           ul: ({ node, ...props }) => <ul className="text-slate-700" {...props} />,
           li: ({ node, ...props }) => <li className="mb-2" {...props} />,
+          img: ({ src, alt, ...props }) => <ArticleImage src={src} alt={alt} {...props} />,
         }}
       >
         {content}

@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0d0d0d;
-  --foreground: #ffffff;
+  --background: #ffffff;
+  --foreground: #111827;
   --primary: #f97316;
   --primary-dark: #ea580c;
   --accent: #fbbf24;
   --accent-warm: #f43f5e;
-  --surface: #1a1a1a;
-  --muted: #999999;
-  --muted-soft: #555555;
-  --border: #2a2a2a;
+  --surface: #f9fafb;
+  --muted: #6b7280;
+  --muted-soft: #9ca3af;
+  --border: #e5e7eb;
   --font-size-base: 16px;
 }
 
@@ -53,7 +53,7 @@ img {
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--primary) 30%, black);
+  background: color-mix(in srgb, var(--primary) 30%, white);
 }
 
 .container-shell {
@@ -68,7 +68,7 @@ img {
 .card-surface {
   background: var(--surface);
   border: 1px solid var(--border);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06);
 }
 
 .eyebrow {
@@ -76,7 +76,7 @@ img {
   align-items: center;
   gap: 0.4rem;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--primary) 10%, black);
+  background: color-mix(in srgb, var(--primary) 10%, white);
   color: var(--primary);
   font-size: 0.74rem;
   font-weight: 700;
@@ -94,7 +94,7 @@ img {
 
 .lift-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.34);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.08);
   border-color: color-mix(in srgb, var(--primary) 18%, var(--border));
 }
 
@@ -122,42 +122,57 @@ img {
   box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
 }
 
-.prose-rentvic {
-  color: var(--foreground);
+.prose-rentbuzz {
+  color: #374151;
   line-height: 1.75;
 }
 
-.prose-rentvic h2,
-.prose-rentvic h3 {
+.prose-rentbuzz h2,
+.prose-rentbuzz h3 {
   scroll-margin-top: 6rem;
   font-weight: 800;
   letter-spacing: -0.02em;
   margin-top: 2rem;
   margin-bottom: 0.8rem;
+  color: #111827;
 }
 
-.prose-rentvic p,
-.prose-rentvic ul {
+.prose-rentbuzz p,
+.prose-rentbuzz ul {
   margin-bottom: 1rem;
+  color: #374151;
 }
 
-.prose-rentvic ul {
+.prose-rentbuzz ul {
   padding-left: 1.2rem;
   list-style: disc;
 }
 
-.prose-rentvic a {
-  color: var(--primary);
+.prose-rentbuzz a {
+  color: #f97316;
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
 
-.prose-rentvic :where(h2, h3) a {
+.prose-rentbuzz :where(h2, h3) a {
   text-decoration: none;
+  color: #111827;
+}
+
+.prose-rentbuzz p:first-of-type strong {
+  display: block;
+  background: #111827;
+  color: #ffffff;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  border-left: 4px solid #f97316;
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 .stat-pill {
-  border: 1px solid color-mix(in srgb, var(--primary) 18%, white);
+  border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border));
   background: color-mix(in srgb, var(--surface) 90%, var(--primary));
 }
 
