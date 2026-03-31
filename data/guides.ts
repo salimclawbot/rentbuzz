@@ -457,8 +457,7 @@ export const guides: GuideStub[] = [
     "excerpt": "Step-by-step guide on how to apply for a rental property in Victoria. Covers ID checks, references, proof of income, cover letters and tips to stand out.",
     "category": "Applications",
     "datePublished": "2026-03-26"
-  }
-] as GuideStub[,
+  },
   {
     "title": "Average Rent in Melbourne 2026 — Suburb by Suburb Guide",
     "slug": "average-rent-melbourne-2026",
@@ -514,5 +513,5 @@ export const guides: GuideStub[] = [
     "excerpt": "Complete guide to renting in Richmond, Melbourne. Median rents, transport links, lifestyle and what to expect from one of Melbourne's most popular suburbs.",
     "category": "Suburb Research",
     "datePublished": "2026-03-26"
-  },
-];
+  }
+] as GuideStub[];
