@@ -39,7 +39,7 @@ const SUBURB_PHOTOS: Record<string, string> = {
 
 export function ArticleImage({ src, alt, ...props }: React.ImgHTMLAttributes<HTMLImageElement>) {
   const getFallback = () => {
-    const filename = (src || '').split('/').pop() || '';
+    const filename = (typeof src === 'string' ? src : '').split('/').pop() || '';
     // Try to match suburb/keyword from filename
     for (const [key, url] of Object.entries(SUBURB_PHOTOS)) {
       if (key !== 'default' && filename.toLowerCase().includes(key)) return url;
