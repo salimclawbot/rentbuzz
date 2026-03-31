@@ -443,5 +443,19 @@ export const guides: GuideStub[] = [
     "excerpt": "Learn how to find a rental in Brisbane in 2026 with this complete guide covering the best suburbs by budget, application tips, pet-friendly areas, flood zones, and common mistakes to avoid.",
     "category": "Getting Started",
     "datePublished": "2026-03-31"
+  },
+  {
+    "title": "Victorian Renter Rights: Complete Guide for 2026",
+    "slug": "renter-rights-victoria-guide",
+    "excerpt": "Know your renter rights in Victoria. Covers bond rules, repairs, rent increases, privacy, eviction, VCAT disputes and minimum standards under the Residential Tenancies Act.",
+    "category": "Tenancy",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "title": "How to Apply for a Rental Property in Victoria (2026 Guide)",
+    "slug": "how-to-apply-rental-victoria",
+    "excerpt": "Step-by-step guide on how to apply for a rental property in Victoria. Covers ID checks, references, proof of income, cover letters and tips to stand out.",
+    "category": "Applications",
+    "datePublished": "2026-03-26"
   }
 ] as GuideStub[];
