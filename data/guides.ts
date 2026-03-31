@@ -458,4 +458,61 @@ export const guides: GuideStub[] = [
     "category": "Applications",
     "datePublished": "2026-03-26"
   }
-] as GuideStub[];
+] as GuideStub[,
+  {
+    "title": "Average Rent in Melbourne 2026 — Suburb by Suburb Guide",
+    "slug": "average-rent-melbourne-2026",
+    "excerpt": "Complete guide to average rent in Melbourne for 2026. CBD, inner, middle, and outer suburb rent data with practical advice for Victorian renters.",
+    "category": "Suburb Research",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "title": "Rental Bond in Victoria — Everything You Need to Know (2026)",
+    "slug": "bond-victoria-guide",
+    "excerpt": "Complete guide to rental bonds in Victoria. Learn about maximum bond amounts, RTBA lodgement, bond returns and dispute resolution.",
+    "category": "Getting Started",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "title": "Cheapest Suburbs to Rent in Melbourne (2026)",
+    "slug": "cheapest-suburbs-to-rent-melbourne-2026",
+    "excerpt": "Discover the 15 cheapest suburbs to rent in Melbourne for 2026. Median rents, transport links, suburb profiles and practical tips.",
+    "category": "Suburb Research",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "title": "Melbourne Rental Crisis 2026 — What Renters Need to Know",
+    "slug": "melbourne-rental-crisis-guide",
+    "excerpt": "Understand the Melbourne rental crisis in 2026. Vacancy rates, rent growth data, and practical strategies for renters navigating the tight market.",
+    "category": "Market Insights",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "title": "Renting with Pets in Victoria — Your Complete Rights Guide (2026)",
+    "slug": "pets-rental-victoria",
+    "excerpt": "Know your rights renting with pets in Victoria. Covers the 2021 law changes, how to request a pet, and what landlords can and cannot do.",
+    "category": "Getting Started",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "title": "Renting Directly from a Private Landlord in Melbourne",
+    "slug": "private-landlord-rentals-melbourne",
+    "excerpt": "Complete guide to private landlord rentals in Melbourne. Learn the benefits, risks and how to protect yourself when renting without an agent.",
+    "category": "Getting Started",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "title": "Renting in Doncaster, Melbourne — 2026 Suburb Guide",
+    "slug": "suburb-guide-doncaster-rentals",
+    "excerpt": "Complete guide to renting in Doncaster, Melbourne 2026. Median rents, transport, schools and suburb profile for prospective renters.",
+    "category": "Suburb Research",
+    "datePublished": "2026-03-26"
+  },
+  {
+    "title": "Renting in Richmond, Melbourne — 2026 Suburb Guide",
+    "slug": "suburb-guide-richmond-rentals",
+    "excerpt": "Complete guide to renting in Richmond, Melbourne. Median rents, transport links, lifestyle and what to expect from one of Melbourne's most popular suburbs.",
+    "category": "Suburb Research",
+    "datePublished": "2026-03-26"
+  },
+];
