@@ -513,5 +513,75 @@ export const guides: GuideStub[] = [
     "excerpt": "Complete guide to renting in Richmond, Melbourne. Median rents, transport links, lifestyle and what to expect from one of Melbourne's most popular suburbs.",
     "category": "Suburb Research",
     "datePublished": "2026-03-26"
+  },
+  {
+    "title": "Cheapest Suburbs to Rent in Brisbane 2026: Where to Find Affordable Rentals",
+    "slug": "cheapest-suburbs-to-rent-brisbane-2026",
+    "excerpt": "Find Brisbane's cheapest rental suburbs in 2026. Data-backed guide with median rents, transport links, livability scores, and tips for affordable living.",
+    "category": "Suburb Research",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "Renting in Gold Coast 2026: Complete Guide for Tenants",
+    "slug": "renting-in-gold-coast-2026",
+    "excerpt": "Complete guide to renting in Gold Coast 2026. Best suburbs by lifestyle, average rents, application tips, and practical advice for tenants.",
+    "category": "Renting Guides",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "Moving to Melbourne: Complete Rental Guide for Newcomers 2026",
+    "slug": "moving-to-melbourne-rental-guide",
+    "excerpt": "Moving to Melbourne? Complete 2026 rental guide for newcomers covering documents, costs, best suburbs, transport zones, application tips, and common mistakes.",
+    "category": "Getting Started",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "Best Suburbs for Young Professionals in Melbourne 2026",
+    "slug": "best-suburbs-young-professionals-melbourne-2026",
+    "excerpt": "Best Melbourne suburbs for young professionals in 2026. Median rents, nightlife, dining, commute times, and lifestyle picks for 22-35 year olds.",
+    "category": "Suburb Research",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "How to Win a Rental Application in Australia 2026: Tenant's Playbook",
+    "slug": "how-to-win-rental-application-australia-2026",
+    "excerpt": "How to win a rental application in Australia in 2026. Tactical guide with preparation tips, inspection etiquette, follow-up strategies, and templates.",
+    "category": "Renting Guides",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "Pet-Friendly Rentals Melbourne: Best Suburbs & How to Find Them 2026",
+    "slug": "pet-friendly-rentals-melbourne",
+    "excerpt": "Find pet-friendly rentals in Melbourne 2026. Best suburbs, how to present a pet CV, landlord obligations under Victorian law, and tips for pet owners.",
+    "category": "Renting Guides",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "Average Rent Sydney by Suburb 2026: Full Breakdown",
+    "slug": "average-rent-sydney-by-suburb-2026",
+    "excerpt": "Average rent in Sydney by suburb for 2026. Full breakdown of houses, units, and share houses across Inner West, Eastern Suburbs, North Shore, and more.",
+    "category": "Market Data",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "Average Rent Perth by Suburb 2026: Complete Price Guide",
+    "slug": "average-rent-perth-by-suburb-2026",
+    "excerpt": "Average rent in Perth by suburb for 2026. Complete price guide for houses, units, and rooms across CBD, northern, southern, and coastal suburbs.",
+    "category": "Market Data",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "Rental Inspection Checklist Australia 2026 (Printable PDF)",
+    "slug": "rental-inspection-checklist-australia",
+    "excerpt": "Complete rental inspection checklist for Australian tenants in 2026. Room-by-room guide for move-in, routine, and move-out inspections with documentation tips.",
+    "category": "Renting Guides",
+    "datePublished": "2026-04-01"
+  },
+  {
+    "title": "Cheapest Suburbs to Rent in Melbourne 2026: Complete Suburb Guide",
+    "slug": "cheapest-suburbs-to-rent-in-melbourne-2026",
+    "excerpt": "Cheapest suburbs to rent in Melbourne 2026 ranked by median rent. Full suburb guide with transport, safety, amenities, and livability for units and houses.",
+    "category": "Suburb Research",
+    "datePublished": "2026-04-01"
   }
 ] as GuideStub[];
